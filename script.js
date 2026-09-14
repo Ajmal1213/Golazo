@@ -26,11 +26,11 @@ const SHOP = {
   whatsappNumber: '',
   whatsappDisplay: '+91 12 345 XXXX',
 
-  email: 'hello@bluebellcakes.com',
-  address: 'Dubai, UAE',
-  currency: 'AED',
+  email: 'hello@Golazocakes.com',
+  address: 'Kerala, India',
+  currency: 'INR',
   locale: 'en-GB',
-  timeZone: 'Asia/Dubai',
+  timeZone: 'Asia/Kolkata',
   copyrightYear: 2026,
 
   whatsappGreeting:
