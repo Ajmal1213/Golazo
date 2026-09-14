@@ -19,11 +19,11 @@ const SHOP = {
   footerName: 'Golazo Cakes',
 
   // Your real international phone number.
-  phoneNumber: '',
+  phoneNumber: '+971 55 680 2331',
   phoneDisplay: '+971 55 680 2331',
 
   // Your real WhatsApp number, including country code.
-  whatsappNumber: '',
+  whatsappNumber: '+971 55 680 2331',
   whatsappDisplay: '+971 55 680 2331',
 
   email: 'hello@Golazocakes.com',
