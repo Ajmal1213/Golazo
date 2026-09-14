@@ -16,15 +16,15 @@
 
 const SHOP = {
   name: 'Golazo Cakes',
-  footerName: 'Bluebell Cakes',
+  footerName: 'Golazo Cakes',
 
   // Your real international phone number.
   phoneNumber: '',
-  phoneDisplay: '+971 XX XXX XXXX',
+  phoneDisplay: '+91 12 345 XXXX',
 
   // Your real WhatsApp number, including country code.
   whatsappNumber: '',
-  whatsappDisplay: '+971 XX XXX XXXX',
+  whatsappDisplay: '+91 12 345 XXXX',
 
   email: 'hello@bluebellcakes.com',
   address: 'Dubai, UAE',
@@ -34,7 +34,7 @@ const SHOP = {
   copyrightYear: 2026,
 
   whatsappGreeting:
-    'Hello Bluebell Cakes, I would like to enquire about a cake.',
+    'Hello Golazo Cakes, I would like to enquire about a cake.',
 
   social: {
     // Paste actual profile URLs.
