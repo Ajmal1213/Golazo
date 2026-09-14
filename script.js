@@ -20,11 +20,11 @@ const SHOP = {
 
   // Your real international phone number.
   phoneNumber: '',
-  phoneDisplay: '+91 12 345 XXXX',
+  phoneDisplay: '+971 55 680 2331',
 
   // Your real WhatsApp number, including country code.
   whatsappNumber: '',
-  whatsappDisplay: '+91 12 345 XXXX',
+  whatsappDisplay: '+971 55 680 2331',
 
   email: 'hello@Golazocakes.com',
   address: 'Kerala, India',
