@@ -28,6 +28,7 @@ const SHOP = {
 
   email: 'hello@Golazocakes.com',
   address: 'Kerala, India',
+  mapUrl:'https://maps.app.goo.gl/DMfnUgaZwfSSz4UR9',
   currency: 'INR',
   locale: 'en-GB',
   timeZone: 'Asia/Kolkata',
@@ -539,6 +540,12 @@ function applyShopSettings() {
       ? `tel:+${number}`
       : '#contact';
   });
+  
+  $$('[data-location]').forEach(link => {
+  link.href = SHOP.mapUrl;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+});
 
   document.title =
     `${SHOP.name} | Beautifully Crafted Cakes in ${SHOP.address}`;
