@@ -23,7 +23,7 @@ const SHOP = {
   phoneDisplay: '+91 79075 77611',
 
   // Your real WhatsApp number, including country code.
-  whatsappNumber: '++91 79075 77611',
+  whatsappNumber: '+91 79075 77611',
   whatsappDisplay: '+91 79075 77611',
 
   email: 'hello@Golazocakes.com',
