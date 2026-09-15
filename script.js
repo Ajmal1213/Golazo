@@ -19,18 +19,18 @@ const SHOP = {
   footerName: 'Golazo Cakes',
 
   // Your real international phone number.
-  phoneNumber: '+971 55 680 2331',
-  phoneDisplay: '+971 55 680 2331',
+  phoneNumber: '+91 79075 77611',
+  phoneDisplay: '+91 79075 77611',
 
   // Your real WhatsApp number, including country code.
-  whatsappNumber: '+971 55 680 2331',
-  whatsappDisplay: '+971 55 680 2331',
+  whatsappNumber: '++91 79075 77611',
+  whatsappDisplay: '+91 79075 77611',
 
   email: 'hello@Golazocakes.com',
   address: 'Kerala, India',
   mapUrl:'https://maps.app.goo.gl/DMfnUgaZwfSSz4UR9',
   currency: 'INR',
-  locale: 'en-GB',
+  locale: 'en-IN',
   timeZone: 'Asia/Kolkata',
   copyrightYear: 2026,
 
@@ -40,7 +40,7 @@ const SHOP = {
   social: {
     // Paste actual profile URLs.
     // Otherwise, the icons remain non-clickable.
-    instagram: '',
+    instagram: 'https://www.instagram.com/golazo_cakes_in',
     facebook: ''
   }
 };
@@ -540,7 +540,7 @@ function applyShopSettings() {
       ? `tel:+${number}`
       : '#contact';
   });
-  
+
   $$('[data-location]').forEach(link => {
   link.href = SHOP.mapUrl;
   link.target = '_blank';
